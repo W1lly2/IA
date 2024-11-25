@@ -1,1 +1,22 @@
-UPAP student making a signup program
+  Proyecto de Registro de Usuarios con Flask y PostgreSQL
+
+Este proyecto es una aplicación web sencilla que permite registrar usuarios con los campos de **correo electrónico**, **contraseña** y **nombre completo**. Los datos se almacenan en una base de datos PostgreSQL y las contraseñas se encriptan para mayor seguridad.
+
+  Características
+
+- Registro de usuarios con validación de datos.
+- Almacenamiento seguro de contraseñas utilizando `Werkzeug`.
+- Backend desarrollado con **Flask** y **SQLAlchemy**.
+- Base de datos gestionada con **PostgreSQL**.
+- Diseño básico de interfaz con formularios HTML.
+
+---
+
+  Requisitos
+
+Antes de comenzar, asegúrate de tener lo siguiente instalado:
+
+- [Python 3.10+](https://www.python.org/downloads/)
+- [PostgreSQL](https://www.postgresql.org/download/)
+- [pgAdmin](https://www.pgadmin.org/download/)
+- Un entorno virtual configurado (opcional, pero recomendado).
